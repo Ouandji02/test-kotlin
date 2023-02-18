@@ -21,6 +21,4 @@ object RegistrationUtil {
         if (confirmedPassword != password) return false
         return true
     }
-    
-
 }

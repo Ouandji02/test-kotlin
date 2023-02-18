@@ -4,6 +4,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class RegistrationUtilTest {
+
     @Test
     fun `empty username returns false`() {
         val result = RegistrationUtil.validateRegistration(
@@ -14,7 +15,7 @@ class RegistrationUtilTest {
     }
 
     @Test
-    fun `valid username and corectly repeated password returns true`(){
+    fun `valid username and correctly repeated password returns true`(){
         val result = RegistrationUtil.validateRegistration(
             "Thierry",
             "123",
