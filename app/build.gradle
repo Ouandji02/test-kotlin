@@ -60,6 +60,10 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+
+    //viewmodel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version"
+
     //Local Unit Tests
     testImplementation "junit:junit:4.13"
     testImplementation "org.hamcrest:hamcrest-all:1.3"

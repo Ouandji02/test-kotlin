@@ -1,5 +1,6 @@
 package com.example.test
 
+import com.example.test.test.RegistrationUtil
 import org.junit.Assert
 import org.junit.Test
 
